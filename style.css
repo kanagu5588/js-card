@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bai+Jamjuree&family=Bruno+Ace+SC&family=Labrada&family=PT+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bai+Jamjuree&family=Bruno+Ace+SC&family=Labrada&family=PT+Sans&family=Poppins&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+
+body{
+    background-color: #5a5858;
+}
+.card{
+    height: 75%;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 12.5%;
+    background: rgb(83,1,26);
+    background: linear-gradient(90deg, rgba(83,1,26,1) 0%, rgba(143,31,68,1) 35%, rgba(66,61,66,1) 100%);
+    border-radius: 10px;
+}
+.main-pic{
+    height: 60%;
+    width: 100%;
+    
+}
+.main-pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-pic{
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+.menu-pic img{
+    height: 100%;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    
+}
+.menu-pic img:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 5px;
+    font-family: 'Satisfy', cursive;
+}
+.title{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1%;
+    animation: tit 1s linear infinite;
+    color: #c7eb0f ;
+}
+
+@keyframes tit{
+    50%{
+        opacity: 0;
+    }
+}
+.btn{
+    text-align: center;
+    margin-top: 3%;
+}
+button{
+    padding: 5px 15px;
+    border: none;
+    text-align: center;
+    background-color: #0c4a6c;
+    color: #ffffff;
+    font-family: arial;
+    cursor: pointer;
+}
